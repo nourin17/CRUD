@@ -1,0 +1,42 @@
+#update{
+    display: none;
+}
+body{
+    color: #41464b ;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 2px;
+    background-image: url("../001+background+pattern+designs.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.inputsForm{
+    background-color: #fff;
+   
+}
+input,textarea{
+    /* background-color: #cacaca !important; */
+    border-color: #cacaca !important;
+    color: #41464b !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+}
+label{
+    color: #1abc9c !important;
+}
+label{
+    color: #41464b;
+}
+.title h1{
+    color: #1abc9c;
+}
+.shadow{
+    box-shadow: 0 0.7rem 1rem rgba(0,0,0,.15)!important;
+}
+thead{
+    background-color:#1abc9c;
+}
+#tbody{
+    background-color: #fff;
+    color: #41464b ;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/bootstrap.min.css">
+<link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title text-center my-3">
+        <h1 class="fw-bold">CRUD Operations</h1>
+    </div>
+    <div class="container inputsForm col-md-9 border p-3 my-5 rounded shadow">
+        <label for="productName">Product Name</label>
+        <input class="form-control my-3" type="text" id="productName">
+        <label for="productPrice">Product Price</label>
+        <input class="form-control my-3" type="number" id="productPrice">
+        <label for="productDescription">Product Description</label>
+        <textarea class="form-control my-3" name="" id="productDescription" cols="30" rows="10"></textarea>
+        <button  id="add" onclick="inputData()" class="btn btn-outline-success">Add Product</button>
+        <button  id="update" onclick="sendUpdates()" class="btn btn-outline-warning">Update Product</button>
+    </div>
+    <div class="container col-md-10 my-5">
+        <table class="table   text-center table-hover text-white">
+            <thead>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </thead>
+            <tbody id="tbody" class="rounded shadow">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
